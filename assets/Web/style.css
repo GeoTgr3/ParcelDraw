@@ -1,0 +1,23 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#mapContainer,#map{
+    height: 100%;
+    width: 100vw;
+}
+.mapPopup .leaflet-popup-content-wrapper {
+    background-color: #e1e0e0;
+    color: #555555;
+    border-radius: 0px;
+    box-shadow: none;
+    border: 1px solid;
+    padding: 0px;
+}
+
+.mapPopup .leaflet-popup-content {
+    margin: 0px;
+    padding: 0px;
+}
